@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+#page { 
+    display: flex;
+}
+
+
+#page aside {
+  width: 30%;
+  background-color: #344B9B;
+  color: white;
+}
+
+#page aside img{
+  border-radius: 30%;
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#page aside h3{
+  background-color: white;
+  color: #344B9B;
+  text-align: center;
+  padding: 5px;
+}
+
+#page aside .contact{
+  padding-left: 10px;
+}
+
+#page main {
+      width: 70%;
+
+}
+#page main h1 {
+      text-align: center;
+
+}
+#page main h2 {
+      text-align: center;
+
+}
