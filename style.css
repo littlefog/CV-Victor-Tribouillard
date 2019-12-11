@@ -1,11 +1,13 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: Calibri;
 }
 
 
 #page { 
     display: flex;
+    color: #4361ca;
 }
 
 
@@ -15,7 +17,7 @@ body {
   color: white;
 }
 
-#page aside img{
+#photo-cv{
   border-radius: 30%;
   max-width: 60%;
   height: auto;
@@ -33,22 +35,63 @@ body {
 
 #page aside .contact{
   padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+
 }
 
 #page main {
-      width: 70%;
+     width: 70%;
+     padding-left: 10px;
+ 	 padding-right: 10px;
 
 }
 #page main h1 {
       text-align: center;
+      font-size: 3em;
+      color: #344B9B;
+      margin-bottom: 10px;
 
 }
 #page main h2 {
       text-align: center;
+      font-size: 2em;
+      color: #344B9B;
+      margin-top: 0px;
+
+}
+#page main h3 {
+      font-size: 1.5em;
+      color: #344B9B;
 
 }
 #page aside a {
       color: white;
-      text-decoration: none;
+
+}
+
+#page main a {
+      color: #4361ca;
+
+}
+
+
+#page aside .contact a span {
+display:none;
+}
+
+#page aside .contact a:hover span {
+display:block;
+margin:10 10 10 10;
+}
+
+#mon-velo
+{
+max-width: 60%;
+height: auto;
+}
+
+.png
+{
 
 }
