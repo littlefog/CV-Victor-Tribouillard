@@ -7,7 +7,7 @@ body {
 
 #page { 
     display: flex;
-    color: #4361ca;
+    color: #344B9B;
 }
 
 
@@ -26,11 +26,12 @@ body {
   margin-right: auto;
 }
 
-#page aside h3{
+#page aside h4{
   background-color: white;
   color: #344B9B;
   text-align: center;
   padding: 5px;
+  font-size: 1.1em;
 }
 
 #page aside .contact{
@@ -44,6 +45,7 @@ body {
      width: 70%;
      padding-left: 10px;
  	 padding-right: 10px;
+ 	 background-image: url("Misty.jpg") opacity: 0.6;
 
 }
 #page main h1 {
@@ -51,20 +53,41 @@ body {
       font-size: 3em;
       color: #344B9B;
       margin-bottom: 10px;
-
 }
+
 #page main h2 {
       text-align: center;
       font-size: 2em;
       color: #344B9B;
       margin-top: 0px;
-
+      border: 3px #344B9B double;
+      border-radius: 10px;
+      box-shadow: 1px 1px 6px #344B9B;
 }
+
 #page main h3 {
+      font-size: 1.8em;
+      color: #344B9B;
+      margin-top: 1px;
+      margin-bottom: 8px;
+      opacity: 60%;
+}
+
+#page main h4 {
       font-size: 1.5em;
       color: #344B9B;
-
+   margin-top: 1px;
+   margin-bottom: 1px;
 }
+
+
+#page main h5 {
+  font-size: 1.1em;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+
 #page aside a {
       color: white;
 
@@ -91,7 +114,16 @@ max-width: 60%;
 height: auto;
 }
 
-.png
-{
 
+#page aside i
+{  
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 2em;
 }
+
+#icones
+{text-align: center;}
+
